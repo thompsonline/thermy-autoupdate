@@ -1,0 +1,22 @@
+#!/bin/bash -x
+
+cd /home/john
+git clone https://github.com/thompsonline/thermostat-control -b master
+cd thermostat-control
+git pull
+
+cd /home/john
+git clone https://github.com/thompsonline/thermostat-display -b master
+cd thermostat-display
+git pull
+
+cd /home/john
+git clone https://github.com/thompsonline/thermostat-plotter -b master
+cd thermostat-plotter
+git pull
+
+cd /home/john
+git clone https://github.com/thompsonline/thermostat-rebootmonitor -b master
+cd thermostat-rebootmonitor
+git pull
+
