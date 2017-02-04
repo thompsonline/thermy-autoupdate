@@ -21,6 +21,11 @@ cd thermostat-rebootmonitor
 git pull
 
 cd /home/john
+git clone https://github.com/thompsonline/thermostat-monitorwifi -b master
+cd thermostat-monitorwifi
+git pull
+
+cd /home/john
 git clone https://github.com/thompsonline/thermostat-thermyautoupdate -b master
 cd thermy-autoupdate
 git pull
