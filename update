@@ -30,3 +30,10 @@ git clone https://github.com/thompsonline/thermostat-thermyautoupdate -b master
 cd thermy-autoupdate
 git pull
 
+cd /home/john
+git clone https://github.com/thompsonline/thermostat-savesensor -b master
+cd thermostat-savesensor
+git pull
+mkdir /var/www/html/remotesensor
+cp savesensor.php /var/www/html/remotesensor/
+
