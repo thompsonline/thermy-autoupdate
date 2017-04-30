@@ -1,36 +1,36 @@
 #!/bin/bash -x
 
-cd /home/john
+cd /home/john/thermy
 git clone https://github.com/thompsonline/thermostat-control -b master
 cd thermostat-control
 git pull
 
-cd /home/john
+cd /home/john/thermy
 git clone https://github.com/thompsonline/thermostat-display -b master
 cd thermostat-display
 git pull
 
-cd /home/john
+cd /home/john/thermy
 git clone https://github.com/thompsonline/thermostat-plotter -b master
 cd thermostat-plotter
 git pull
 
-cd /home/john
+cd /home/john/thermy
 git clone https://github.com/thompsonline/thermostat-rebootmonitor -b master
 cd thermostat-rebootmonitor
 git pull
 
-cd /home/john
+cd /home/john/thermy
 git clone https://github.com/thompsonline/thermostat-monitorwifi -b master
 cd thermostat-monitorwifi
 git pull
 
-cd /home/john
+cd /home/john/thermy
 git clone https://github.com/thompsonline/thermostat-thermyautoupdate -b master
 cd thermy-autoupdate
 git pull
 
-cd /home/john
+cd /home/john/thermy
 git clone https://github.com/thompsonline/thermostat-savesensor -b master
 cd thermostat-savesensor
 git pull
