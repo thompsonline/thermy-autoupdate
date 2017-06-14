@@ -31,6 +31,11 @@ cd thermy-autoupdate
 git pull
 
 cd /home/john/thermy
+git clone https://github.com/thompsonline/thermostat-localsensor -b master
+cd thermostat-localsensor
+git pull
+
+cd /home/john/thermy
 git clone https://github.com/thompsonline/thermostat-savesensor -b master
 cd thermostat-savesensor
 git pull
