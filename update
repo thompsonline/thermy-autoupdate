@@ -36,9 +36,22 @@ cd thermostat-localsensor
 git pull
 
 cd /home/john/thermy
+git clone https://github.com/thompsonline/thermostat-cleanup -b master
+cd thermostat-cleanup
+git pull
+
+cd /home/john/thermy
 git clone https://github.com/thompsonline/thermostat-savesensor -b master
 cd thermostat-savesensor
 git pull
 mkdir /var/www/html/remotesensor
-cp savesensor.php /var/www/html/remotesensor/
+#cp savesensor.php /var/www/html/remotesensor/
+
+cd /home/john/thermy
+git clone https://github.com/thompsonline/thermostat-eventlogger -b master
+cd thermostat-eventlogger
+git pull
+mkdir /var/www/html/eventlogger
+#cp savesensor.php /var/www/html/remotesensor/
+
 
